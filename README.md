@@ -286,7 +286,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Rehan Godakumbura** - *Event Ticket Management System* - [YourGitHub](https://github.com/rehangodakumbura)
 
 ## 🙏 Acknowledgments
 
@@ -294,13 +294,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Java concurrency documentation and best practices
 - Spring Boot and React.js communities
 - Open source contributors and learning resources
-
-## 📞 Support
-
-For questions, issues, or contributions:
-- Create an issue in the GitHub repository
-- Contact: your.email@example.com
-- Documentation: [Wiki](https://github.com/yourusername/event-ticketing-system/wiki)
 
 ---
 
