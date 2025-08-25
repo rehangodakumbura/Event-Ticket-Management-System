@@ -1,0 +1,110 @@
+/* General Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px; 
+    margin: 20px auto; 
+    background-color: #f9f9f9; 
+  }
+  
+  /* Label and Input Container */
+  form div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  /* Label Styles */
+  label {
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px; 
+    text-align: right; 
+  }
+  
+  /* Input and Textarea Styles */
+  input,
+  textarea {
+    flex: 1; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Button Styles */
+  button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Available Tickets Display */
+  .available-tickets {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Ticket Pool Section */
+  .ticket-pool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    font-size: 14px;
+  }
+  
+ /* Start and Stop Button Styles */
+.start-stop-buttons {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .start-stop-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Space between buttons */
+    margin-right: 20px; 
+  }
+  
+  /* Remove margin from the last button */
+  .start-stop-buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Hover effect for buttons */
+  .start-stop-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
